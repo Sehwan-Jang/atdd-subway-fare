@@ -1,4 +1,4 @@
-package wooteco.subway.path.domain;
+package wooteco.subway.path.domain.farepolicy;
 
 import wooteco.subway.member.domain.Age;
 import wooteco.subway.path.application.InvalidPathException;

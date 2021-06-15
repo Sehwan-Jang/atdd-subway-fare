@@ -18,7 +18,7 @@ public class SubwayPathTest {
 
 
     @ParameterizedTest(name = "거리 당 추가 요금 계산 테스트")
-    @CsvSource(value = {"10:20:1250", "50:20:2050", "90:20:2250"}, delimiter = ':')
+    @CsvSource(value = {"10:20:1250", "50:20:2050", "90:20:2550"}, delimiter = ':')
     void calculateDistance(int distance, int age, int expected) {
 
         // given
